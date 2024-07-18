@@ -9,21 +9,21 @@ const productos = {
         // Añade más productos aquí
     ],
     tecnologia: [
-        { id: 11, nombre: 'Celular', marca: 'Dell', precio: 800, imagen: '../img/samsung_s20.jpg' },
-        { id: 12, nombre: 'Celular', marca: 'Samsung', precio: 600, imagen: '../img/samsung_s22.jpg' },
-        { id: 13, nombre: 'Laptop', marca: 'Hp', precio: 600, imagen: '../img/laptop_250 G7.jpg' },
-        { id: 14, nombre: 'Laptop', marca: 'Lenovo', precio: 600, imagen: '../img/LENOVO_IDEAPAD 5 14ITL05.jpg' },
-        { id: 15, nombre: 'Laptop', marca: 'Dell', precio: 600, imagen: '../img/DEL_LAPTOP DELL LATITUDE 3520.jpg' }
+        { id: 11, nombre: 'Celular', marca: 'Dell', precio: 800, imagen: './img/samsung_s20.jpg' },
+        { id: 12, nombre: 'Celular', marca: 'Samsung', precio: 600, imagen: './img/samsung_s22.jpg' },
+        { id: 13, nombre: 'Laptop', marca: 'Hp', precio: 600, imagen: './img/laptop_250 G7.jpg' },
+        { id: 14, nombre: 'Laptop', marca: 'Lenovo', precio: 600, imagen: './img/LENOVO_IDEAPAD 5 14ITL05.jpg' },
+        { id: 15, nombre: 'Laptop', marca: 'Dell', precio: 600, imagen: './img/DEL_LAPTOP DELL LATITUDE 3520.jpg' }
         
         
         // Añade más productos aquí
     ],
     muebles: [
-        { id: 21, nombre: 'Sofa', marca: 'Ikea', precio: 300, imagen: '../img/sofa_chiqui.jpg' },
+        { id: 21, nombre: 'Sofa', marca: 'Ikea', precio: 300, imagen: './img/sofa_chiqui.jpg' },
         { id: 22, nombre: 'Silla', marca: 'Glasglow', precio: 150, imagen: '../img/Silla Glasgow.jpg' },
-        { id: 23, nombre: 'Mesa', marca: 'Noa', precio: 150, imagen: '../img/Mesa Noa.jpg' },
-        { id: 24, nombre: 'Banco', marca: 'Woody', precio: 150, imagen: '../img/Banco Woody.jpg' },
-        { id: 25, nombre: 'Silla', marca: 'Smart Lux', precio: 150, imagen: '../img/Silla Smart Lux.jpg' }
+        { id: 23, nombre: 'Mesa', marca: 'Noa', precio: 150, imagen: './img/Mesa Noa.jpg' },
+        { id: 24, nombre: 'Banco', marca: 'Woody', precio: 150, imagen: './img/Banco Woody.jpg' },
+        { id: 25, nombre: 'Silla', marca: 'Smart Lux', precio: 150, imagen: './img/Silla Smart Lux.jpg' }
         
         // Añade más productos aquí
     ]
