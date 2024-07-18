@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrohogar - Tienda Online</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<style>
+    .card-product {
+        height: 100%;
+    }
+    .card-body-product {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-img-top-product {
+        height: 350px;
+        
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">Tienda Online</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tecnologia.html">Tecnología</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="electrohogar.html">Electrohogar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="muebles.html">Muebles</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenedor para notificaciones -->
+    <div id="notificaciones" class="fixed-top"></div>
+    
+    <div class="container">
+        <h1>Electrohogar</h1>
+        <div class="row" id="electrohogar">
+            <!-- Productos de Electrohogar se insertarán aquí -->
+        </div>
+    </div>
+
+    <section id="carrito" class="productos">
+        <div class="container">
+            <h2 class="text-center mb-4">Carrito de Compras</h2>
+            <div id="lista-carrito" class="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Imagen</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Marca</th>
+                            <th scope="col">Precio Unitario</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Subtotal</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-carrito">
+                        <!-- Productos en el carrito se insertarán aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="total-carrito" class="row mt-4">
+                <div class="col-md-6 offset-md-6 text-right">
+                    <p>Subtotal: S/<span id="subtotal">0.00</span></p>
+                    <p>Impuestos: S/<span id="impuestos">0.00</span></p>
+                    <p>Total: S/<span id="total">0.00</span></p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-12 text-right">
+                    <button id="vaciar-carrito" class="btn btn-danger">Vaciar Carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <p>Horarios de atención:</p>
+                    <ul>
+                        <li>Lunes a Viernes: 9:00 AM - 6:00 PM</li>
+                        <li>Sábados: 9:00 AM - 1:00 PM</li>
+                        <li>Domingos: Cerrado</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p>Sucursales en Arequipa:</p>
+                    <ul>
+                        <li>Sucursal 1: Av. Ejemplo 123</li>
+                        <li>Sucursal 2: Calle Ficticia 456</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p>Teléfonos de contacto:</p>
+                    <ul>
+                        <li>+51 123 456 789</li>
+                        <li>+51 987 654 321</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 text-center">
+                    <p>Síguenos:</p>
+                    <a href="#" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white ml-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white ml-3"><i class="fab fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col text-center">
+                    <p>&copy; 2024 ElectroAqp. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/carritos.js"></script>
+    <script src="../js/producto.js"></script>
+    
+</body>
+</html>
