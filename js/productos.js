@@ -1,10 +1,10 @@
 const productos = {
     electrohogar: [
-        { id: 1, nombre: 'Aspiradora', marca: 'Smarthlife', precio: 50, imagen: '../img/aspiradora_smarthlife.jpg' },
-        { id: 2, nombre: 'Horno', marca: 'Corbero', precio: 100, imagen: '../img/Foto_Horno_CCHM603W_corbero.jpg' },
-        { id: 3, nombre: 'Horno', marca: 'Corbero', precio: 100, imagen: '../img/Foto_Horno_CCHM603X_corbero.jpg' },
-        { id: 4, nombre: 'Microondas', marca: 'Corbero', precio: 100, imagen: '../img/Microondas_CMICM20GLNINTEG.jpg' },
-        { id: 5, nombre: 'Microondas', marca: 'Corbero', precio: 100, imagen: '../img/MICROONDAS_CORBERO_CMICG220W.jpg' }
+        { id: 1, nombre: 'Aspiradora', marca: 'Smarthlife', precio: 50, imagen: './img/aspiradora_smarthlife.jpg' },
+        { id: 2, nombre: 'Horno', marca: 'Corbero', precio: 100, imagen: './img/Foto_Horno_CCHM603W_corbero.jpg' },
+        { id: 3, nombre: 'Horno', marca: 'Corbero', precio: 100, imagen: './img/Foto_Horno_CCHM603X_corbero.jpg' },
+        { id: 4, nombre: 'Microondas', marca: 'Corbero', precio: 100, imagen: './img/Microondas_CMICM20GLNINTEG.jpg' },
+        { id: 5, nombre: 'Microondas', marca: 'Corbero', precio: 100, imagen: './img/MICROONDAS_CORBERO_CMICG220W.jpg' }
         
         // Añade más productos aquí
     ],
